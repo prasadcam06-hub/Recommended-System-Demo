@@ -24,7 +24,7 @@ The system uses two CSV files (MovieLens Dataset downloaded form from GroupLens 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/prasadcam06-hub/Recommended-System-Demo.git
 ```
 
 ### 2. Create Virtual Environment (Recommended)
