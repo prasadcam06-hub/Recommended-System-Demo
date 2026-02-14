@@ -63,7 +63,7 @@ If you prefer to run the code as a Python script:
 
  **Run the script**:
    ```bash
-   prasad.ipynb.py
+   Prasad.ipynb.py
    ```
 
 ## Expected Output
