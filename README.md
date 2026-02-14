@@ -33,6 +33,8 @@ git clone https://github.com/prasadcam06-hub/Recommended-System-Demo.git
 # Create virtual environment
 python -m venv movie_rec_env
 
+source movie_rec_env/bin/activate
+
 ### 3. Install Dependencies
 
 ```bash
@@ -63,7 +65,7 @@ If you prefer to run the code as a Python script:
 
  **Run the script**:
    ```bash
-   Prasad1.py
+  python Prasad1.py
    ```
 
 ## Expected Output
