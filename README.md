@@ -21,24 +21,17 @@ The system uses two CSV files (MovieLens Dataset downloaded form from GroupLens 
 
 ## Installation & Setup
 
-### 1. Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/prasadcam06-hub/Recommended-System-Demo.git
 ```
 
-### 2. Create Virtual Environment (Recommended)
+### Create Virtual Environment (Recommended)
 
 ```bash
 # Create virtual environment
 python -m venv movie_rec_env
-
-# Activate virtual environment
-# On macOS/Linux:
-source movie_rec_env/bin/activate
-# On Windows:
-movie_rec_env\Scripts\activate
-```
 
 ### 3. Install Dependencies
 
@@ -50,12 +43,12 @@ pip install -r requirements.txt
 
 ### Running the Jupyter Notebook
 
-1. **Start Jupyter Notebook**:
+ **Start Jupyter Notebook**:
    ```bash
    jupyter notebook
    ```
 
-2. **Open the notebook**: Navigate to and open `prasad.ipynb`
+ **Open the notebook**: Navigate to and open `prasad.ipynb`
 
 3. **Run all cells**: Execute all cells in order by selecting "Cell" → "Run All" or run each cell individually with `Shift+Enter`
 
@@ -63,12 +56,12 @@ pip install -r requirements.txt
 
 If you prefer to run the code as a Python script:
 
-1. **Convert notebook to Python script**:
+ **Convert notebook to Python script**:
    ```bash
    jupyter nbconvert --to script prasad.ipynb
    ```
 
-2. **Run the script**:
+ **Run the script**:
    ```bash
    prasad.ipynb.py
    ```
@@ -79,9 +72,10 @@ When you run the notebook, you should see:
 
 1. **Model Training Progress**: surprise.model_selection
 2. **Evaluation Metrics**: 
-   - Precision@5: ~0.6639
-   - Recall@5: ~0.4723
-   - RMSE: ~0.8817
+   -RMSE: 0.8814
+   -Precision@5: 0.6574
+   -Recall@5: 0.4685
+
 
 3. **Sample Recommendations**: Personalized movie recommendations for users 140,603,438
 4. **Predict ratings for unseen movies for a specific user**: user 196.
