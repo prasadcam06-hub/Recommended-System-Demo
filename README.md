@@ -31,6 +31,7 @@ python -m venv movie_rec_env
 # Activate virtual environment
 # On macOS/Linux:
 source movie_rec_env/bin/activate
+```
 
 ### 3. Install Dependencies
 ```bash
