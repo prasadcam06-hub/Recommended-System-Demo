@@ -48,7 +48,7 @@ pip install -r requirements.txt
    jupyter notebook
    ```
 
- **Open the notebook**: Navigate to and open `prasad.ipynb`
+ **Open the notebook**: Navigate to and open `Prasad1.ipynb`
 
 3. **Run all cells**: Execute all cells in order by selecting "Cell" → "Run All" or run each cell individually with `Shift+Enter`
 
@@ -58,12 +58,12 @@ If you prefer to run the code as a Python script:
 
  **Convert notebook to Python script**:
    ```bash
-   jupyter nbconvert --to script prasad.ipynb
+   jupyter nbconvert --to script Prasad1.ipynb
    ```
 
  **Run the script**:
    ```bash
-   Prasad.ipynb.py
+   Prasad1.py
    ```
 
 ## Expected Output
