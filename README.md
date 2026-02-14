@@ -86,14 +86,3 @@ When you run the notebook, you should see:
 3. **Sample Recommendations**: Personalized movie recommendations for users 140,603,438
 4. **Predict ratings for unseen movies for a specific user**: user 196.
 
-
-## File Structure
-
-```
-movie-recommendation-main/
-├── prasad.ipynb                   # Main Jupyter notebook
-├── movies.csv                     # Movie csv file
-├── ratings.csv                    # User ratings csv file
-├── requirements.txt               # Dependencies
-└── README.md                      # This file
-```
